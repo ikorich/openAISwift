@@ -1,0 +1,16 @@
+//
+//  release.xcconfig
+//  openAISwift
+//
+//  Created by vitalii on 05.03.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "base.xcconfig"
+
+ENABLE_NS_ASSERTIONS = NO
+SWIFT_COMPILATION_MODE = wholemodule
+SWIFT_OPTIMIZATION_LEVEL = -O
+MTL_ENABLE_DEBUG_INFO = NO

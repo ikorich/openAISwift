@@ -1,0 +1,18 @@
+//
+//  test.xcconfig
+//  openAISwift
+//
+//  Created by vitalii on 05.03.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "base.xcconfig"
+
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+TEST_TARGET_NAME = openAISwift
+SWIFT_EMIT_LOC_STRINGS = NO
+
+TEST_HOST = $(BUILT_PRODUCTS_DIR)/openAISwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/openAISwift
+BUNDLE_LOADER = $(TEST_HOST)

@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50D346A29B517BE0007AE3E /* base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A50D346929B517BE0007AE3E /* base.xcconfig */; };
+		A5C24CE729B20A4200B8D860 /* openAISwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CE629B20A4200B8D860 /* openAISwiftApp.swift */; };
+		A5C24CE929B20A4200B8D860 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CE829B20A4200B8D860 /* Persistence.swift */; };
+		A5C24CEC29B20A4200B8D860 /* openAISwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CEA29B20A4200B8D860 /* openAISwift.xcdatamodeld */; };
+		A5C24CEE29B20A4200B8D860 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CED29B20A4200B8D860 /* ContentView.swift */; };
+		A5C24CF029B20A4400B8D860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C24CEF29B20A4400B8D860 /* Assets.xcassets */; };
+		A5C24CF429B20A4400B8D860 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C24CF329B20A4400B8D860 /* Preview Assets.xcassets */; };
+		A5C24CFE29B20A4500B8D860 /* openAISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CFD29B20A4500B8D860 /* openAISwiftTests.swift */; };
+		A5C24D0829B20A4500B8D860 /* openAISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24D0729B20A4500B8D860 /* openAISwiftUITests.swift */; };
+		A5C24D0A29B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24D0929B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5C24CFA29B20A4500B8D860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C24CDB29B20A4200B8D860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C24CE229B20A4200B8D860;
+			remoteInfo = openAISwift;
+		};
+		A5C24D0429B20A4500B8D860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C24CDB29B20A4200B8D860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C24CE229B20A4200B8D860;
+			remoteInfo = openAISwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A50D346929B517BE0007AE3E /* base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = base.xcconfig; sourceTree = "<group>"; };
+		A50D346B29B517DE0007AE3E /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		A50D346C29B517FC0007AE3E /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		A50D346D29B51D580007AE3E /* test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = test.xcconfig; sourceTree = "<group>"; };
+		A50D346E29B51D830007AE3E /* uitest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = uitest.xcconfig; sourceTree = "<group>"; };
+		A50D346F29B520F00007AE3E /* app-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "app-debug.xcconfig"; sourceTree = "<group>"; };
+		A50D347029B520FD0007AE3E /* app-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "app-release.xcconfig"; sourceTree = "<group>"; };
+		A50D347129B5218C0007AE3E /* test-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "test-debug.xcconfig"; sourceTree = "<group>"; };
+		A50D347229B5219A0007AE3E /* test-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "test-release.xcconfig"; sourceTree = "<group>"; };
+		A50D347329B521D00007AE3E /* uitest-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "uitest-debug.xcconfig"; sourceTree = "<group>"; };
+		A50D347429B521DE0007AE3E /* uitest-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "uitest-release.xcconfig"; sourceTree = "<group>"; };
+		A50D347529B5235C0007AE3E /* app.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = app.xcconfig; sourceTree = "<group>"; };
+		A5C24CE329B20A4200B8D860 /* openAISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openAISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C24CE629B20A4200B8D860 /* openAISwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openAISwiftApp.swift; sourceTree = "<group>"; };
+		A5C24CE829B20A4200B8D860 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A5C24CEB29B20A4200B8D860 /* openAISwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = openAISwift.xcdatamodel; sourceTree = "<group>"; };
+		A5C24CED29B20A4200B8D860 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5C24CEF29B20A4400B8D860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5C24CF129B20A4400B8D860 /* openAISwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openAISwift.entitlements; sourceTree = "<group>"; };
+		A5C24CF329B20A4400B8D860 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5C24CF929B20A4500B8D860 /* openAISwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openAISwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C24CFD29B20A4500B8D860 /* openAISwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openAISwiftTests.swift; sourceTree = "<group>"; };
+		A5C24D0329B20A4500B8D860 /* openAISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openAISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C24D0729B20A4500B8D860 /* openAISwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openAISwiftUITests.swift; sourceTree = "<group>"; };
+		A5C24D0929B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openAISwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C24CE029B20A4200B8D860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C24CF629B20A4500B8D860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C24D0029B20A4500B8D860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50D346829B517940007AE3E /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				A50D346929B517BE0007AE3E /* base.xcconfig */,
+				A50D346B29B517DE0007AE3E /* debug.xcconfig */,
+				A50D346C29B517FC0007AE3E /* release.xcconfig */,
+				A50D347529B5235C0007AE3E /* app.xcconfig */,
+				A50D346F29B520F00007AE3E /* app-debug.xcconfig */,
+				A50D347029B520FD0007AE3E /* app-release.xcconfig */,
+				A50D346D29B51D580007AE3E /* test.xcconfig */,
+				A50D347129B5218C0007AE3E /* test-debug.xcconfig */,
+				A50D347229B5219A0007AE3E /* test-release.xcconfig */,
+				A50D346E29B51D830007AE3E /* uitest.xcconfig */,
+				A50D347329B521D00007AE3E /* uitest-debug.xcconfig */,
+				A50D347429B521DE0007AE3E /* uitest-release.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		A5C24CDA29B20A4200B8D860 = {
+			isa = PBXGroup;
+			children = (
+				A5C24CE529B20A4200B8D860 /* openAISwift */,
+				A5C24CFC29B20A4500B8D860 /* openAISwiftTests */,
+				A5C24D0629B20A4500B8D860 /* openAISwiftUITests */,
+				A5C24CE429B20A4200B8D860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C24CE429B20A4200B8D860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C24CE329B20A4200B8D860 /* openAISwift.app */,
+				A5C24CF929B20A4500B8D860 /* openAISwiftTests.xctest */,
+				A5C24D0329B20A4500B8D860 /* openAISwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C24CE529B20A4200B8D860 /* openAISwift */ = {
+			isa = PBXGroup;
+			children = (
+				A50D346829B517940007AE3E /* Configurations */,
+				A5C24D1629B20A7F00B8D860 /* Resources */,
+				A5C24CE629B20A4200B8D860 /* openAISwiftApp.swift */,
+				A5C24CE829B20A4200B8D860 /* Persistence.swift */,
+				A5C24CED29B20A4200B8D860 /* ContentView.swift */,
+			);
+			path = openAISwift;
+			sourceTree = "<group>";
+		};
+		A5C24CFC29B20A4500B8D860 /* openAISwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C24CFD29B20A4500B8D860 /* openAISwiftTests.swift */,
+			);
+			path = openAISwiftTests;
+			sourceTree = "<group>";
+		};
+		A5C24D0629B20A4500B8D860 /* openAISwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C24D0729B20A4500B8D860 /* openAISwiftUITests.swift */,
+				A5C24D0929B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift */,
+			);
+			path = openAISwiftUITests;
+			sourceTree = "<group>";
+		};
+		A5C24D1629B20A7F00B8D860 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5C24CEF29B20A4400B8D860 /* Assets.xcassets */,
+				A5C24CF129B20A4400B8D860 /* openAISwift.entitlements */,
+				A5C24CEA29B20A4200B8D860 /* openAISwift.xcdatamodeld */,
+				A5C24D1729B20B8400B8D860 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5C24D1729B20B8400B8D860 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5C24CF329B20A4400B8D860 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C24CE229B20A4200B8D860 /* openAISwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C24D0D29B20A4500B8D860 /* Build configuration list for PBXNativeTarget "openAISwift" */;
+			buildPhases = (
+				A5C24CDF29B20A4200B8D860 /* Sources */,
+				A5C24CE029B20A4200B8D860 /* Frameworks */,
+				A5C24CE129B20A4200B8D860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openAISwift;
+			productName = openAISwift;
+			productReference = A5C24CE329B20A4200B8D860 /* openAISwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5C24CF829B20A4500B8D860 /* openAISwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C24D1029B20A4500B8D860 /* Build configuration list for PBXNativeTarget "openAISwiftTests" */;
+			buildPhases = (
+				A5C24CF529B20A4500B8D860 /* Sources */,
+				A5C24CF629B20A4500B8D860 /* Frameworks */,
+				A5C24CF729B20A4500B8D860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C24CFB29B20A4500B8D860 /* PBXTargetDependency */,
+			);
+			name = openAISwiftTests;
+			productName = openAISwiftTests;
+			productReference = A5C24CF929B20A4500B8D860 /* openAISwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5C24D0229B20A4500B8D860 /* openAISwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C24D1329B20A4500B8D860 /* Build configuration list for PBXNativeTarget "openAISwiftUITests" */;
+			buildPhases = (
+				A5C24CFF29B20A4500B8D860 /* Sources */,
+				A5C24D0029B20A4500B8D860 /* Frameworks */,
+				A5C24D0129B20A4500B8D860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C24D0529B20A4500B8D860 /* PBXTargetDependency */,
+			);
+			name = openAISwiftUITests;
+			productName = openAISwiftUITests;
+			productReference = A5C24D0329B20A4500B8D860 /* openAISwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C24CDB29B20A4200B8D860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A5C24CE229B20A4200B8D860 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A5C24CF829B20A4500B8D860 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A5C24CE229B20A4200B8D860;
+					};
+					A5C24D0229B20A4500B8D860 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A5C24CE229B20A4200B8D860;
+					};
+				};
+			};
+			buildConfigurationList = A5C24CDE29B20A4200B8D860 /* Build configuration list for PBXProject "openAISwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5C24CDA29B20A4200B8D860;
+			productRefGroup = A5C24CE429B20A4200B8D860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C24CE229B20A4200B8D860 /* openAISwift */,
+				A5C24CF829B20A4500B8D860 /* openAISwiftTests */,
+				A5C24D0229B20A4500B8D860 /* openAISwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C24CE129B20A4200B8D860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C24CF429B20A4400B8D860 /* Preview Assets.xcassets in Resources */,
+				A5C24CF029B20A4400B8D860 /* Assets.xcassets in Resources */,
+				A50D346A29B517BE0007AE3E /* base.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C24CF729B20A4500B8D860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C24D0129B20A4500B8D860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C24CDF29B20A4200B8D860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C24CE729B20A4200B8D860 /* openAISwiftApp.swift in Sources */,
+				A5C24CEC29B20A4200B8D860 /* openAISwift.xcdatamodeld in Sources */,
+				A5C24CEE29B20A4200B8D860 /* ContentView.swift in Sources */,
+				A5C24CE929B20A4200B8D860 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C24CF529B20A4500B8D860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C24CFE29B20A4500B8D860 /* openAISwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C24CFF29B20A4500B8D860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C24D0A29B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift in Sources */,
+				A5C24D0829B20A4500B8D860 /* openAISwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5C24CFB29B20A4500B8D860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5C24CE229B20A4200B8D860 /* openAISwift */;
+			targetProxy = A5C24CFA29B20A4500B8D860 /* PBXContainerItemProxy */;
+		};
+		A5C24D0529B20A4500B8D860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5C24CE229B20A4200B8D860 /* openAISwift */;
+			targetProxy = A5C24D0429B20A4500B8D860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5C24D0B29B20A4500B8D860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D346B29B517DE0007AE3E /* debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A5C24D0C29B20A4500B8D860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D346C29B517FC0007AE3E /* release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A5C24D0E29B20A4500B8D860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D346F29B520F00007AE3E /* app-debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A5C24D0F29B20A4500B8D860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D347029B520FD0007AE3E /* app-release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A5C24D1129B20A4500B8D860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D347129B5218C0007AE3E /* test-debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A5C24D1229B20A4500B8D860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D347229B5219A0007AE3E /* test-release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A5C24D1429B20A4500B8D860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D347329B521D00007AE3E /* uitest-debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A5C24D1529B20A4500B8D860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50D347429B521DE0007AE3E /* uitest-release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C24CDE29B20A4200B8D860 /* Build configuration list for PBXProject "openAISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C24D0B29B20A4500B8D860 /* Debug */,
+				A5C24D0C29B20A4500B8D860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C24D0D29B20A4500B8D860 /* Build configuration list for PBXNativeTarget "openAISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C24D0E29B20A4500B8D860 /* Debug */,
+				A5C24D0F29B20A4500B8D860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C24D1029B20A4500B8D860 /* Build configuration list for PBXNativeTarget "openAISwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C24D1129B20A4500B8D860 /* Debug */,
+				A5C24D1229B20A4500B8D860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C24D1329B20A4500B8D860 /* Build configuration list for PBXNativeTarget "openAISwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C24D1429B20A4500B8D860 /* Debug */,
+				A5C24D1529B20A4500B8D860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5C24CEA29B20A4200B8D860 /* openAISwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5C24CEB29B20A4200B8D860 /* openAISwift.xcdatamodel */,
+			);
+			currentVersion = A5C24CEB29B20A4200B8D860 /* openAISwift.xcdatamodel */;
+			path = openAISwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5C24CDB29B20A4200B8D860 /* Project object */;
+}

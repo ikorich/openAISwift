@@ -1,0 +1,15 @@
+//
+//  uitest.xcconfig
+//  openAISwift
+//
+//  Created by vitalii on 05.03.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "base.xcconfig"
+
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+TEST_TARGET_NAME = openAISwift
+SWIFT_EMIT_LOC_STRINGS = NO
