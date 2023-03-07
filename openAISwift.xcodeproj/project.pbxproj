@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A50D346A29B517BE0007AE3E /* base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A50D346929B517BE0007AE3E /* base.xcconfig */; };
-		A5C24CE729B20A4200B8D860 /* openAISwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CE629B20A4200B8D860 /* openAISwiftApp.swift */; };
+		A520071829B773E30077110E /* AppKit+KeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520071729B773E30077110E /* AppKit+KeyboardType.swift */; };
+		A56D675D29B76CFB007875BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56D675729B76CFB007875BA /* Assets.xcassets */; };
+		A56D675E29B76CFB007875BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56D675929B76CFB007875BA /* Preview Assets.xcassets */; };
+		A56D675F29B76CFB007875BA /* dataStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A56D675B29B76CFB007875BA /* dataStorage.xcdatamodeld */; };
+		A5C24CE729B20A4200B8D860 /* application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CE629B20A4200B8D860 /* application.swift */; };
 		A5C24CE929B20A4200B8D860 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CE829B20A4200B8D860 /* Persistence.swift */; };
-		A5C24CEC29B20A4200B8D860 /* openAISwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CEA29B20A4200B8D860 /* openAISwift.xcdatamodeld */; };
 		A5C24CEE29B20A4200B8D860 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CED29B20A4200B8D860 /* ContentView.swift */; };
-		A5C24CF029B20A4400B8D860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C24CEF29B20A4400B8D860 /* Assets.xcassets */; };
-		A5C24CF429B20A4400B8D860 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C24CF329B20A4400B8D860 /* Preview Assets.xcassets */; };
 		A5C24CFE29B20A4500B8D860 /* openAISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24CFD29B20A4500B8D860 /* openAISwiftTests.swift */; };
 		A5C24D0829B20A4500B8D860 /* openAISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24D0729B20A4500B8D860 /* openAISwiftUITests.swift */; };
 		A5C24D0A29B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C24D0929B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift */; };
@@ -37,26 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A50D346929B517BE0007AE3E /* base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = base.xcconfig; sourceTree = "<group>"; };
-		A50D346B29B517DE0007AE3E /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
-		A50D346C29B517FC0007AE3E /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
-		A50D346D29B51D580007AE3E /* test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = test.xcconfig; sourceTree = "<group>"; };
-		A50D346E29B51D830007AE3E /* uitest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = uitest.xcconfig; sourceTree = "<group>"; };
-		A50D346F29B520F00007AE3E /* app-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "app-debug.xcconfig"; sourceTree = "<group>"; };
-		A50D347029B520FD0007AE3E /* app-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "app-release.xcconfig"; sourceTree = "<group>"; };
-		A50D347129B5218C0007AE3E /* test-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "test-debug.xcconfig"; sourceTree = "<group>"; };
-		A50D347229B5219A0007AE3E /* test-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "test-release.xcconfig"; sourceTree = "<group>"; };
-		A50D347329B521D00007AE3E /* uitest-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "uitest-debug.xcconfig"; sourceTree = "<group>"; };
-		A50D347429B521DE0007AE3E /* uitest-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "uitest-release.xcconfig"; sourceTree = "<group>"; };
-		A50D347529B5235C0007AE3E /* app.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = app.xcconfig; sourceTree = "<group>"; };
+		A520071729B773E30077110E /* AppKit+KeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppKit+KeyboardType.swift"; sourceTree = "<group>"; };
+		A56D675729B76CFB007875BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56D675929B76CFB007875BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A56D675A29B76CFB007875BA /* entitlement.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = entitlement.entitlements; sourceTree = "<group>"; };
+		A56D675C29B76CFB007875BA /* dataStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dataStorage.xcdatamodel; sourceTree = "<group>"; };
+		A56D676229B76D0F007875BA /* app.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = app.xcconfig; sourceTree = "<group>"; };
+		A56D676329B76D0F007875BA /* app-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "app-debug.xcconfig"; sourceTree = "<group>"; };
+		A56D676429B76D0F007875BA /* app-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "app-release.xcconfig"; sourceTree = "<group>"; };
+		A56D676629B76D0F007875BA /* test-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "test-release.xcconfig"; sourceTree = "<group>"; };
+		A56D676729B76D0F007875BA /* uitest-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "uitest-debug.xcconfig"; sourceTree = "<group>"; };
+		A56D676829B76D0F007875BA /* uitest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = uitest.xcconfig; sourceTree = "<group>"; };
+		A56D676929B76D0F007875BA /* test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = test.xcconfig; sourceTree = "<group>"; };
+		A56D676A29B76D0F007875BA /* uitest-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "uitest-release.xcconfig"; sourceTree = "<group>"; };
+		A56D676B29B76D0F007875BA /* test-debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "test-debug.xcconfig"; sourceTree = "<group>"; };
+		A56D676C29B76D0F007875BA /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		A56D676D29B76D0F007875BA /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		A56D676E29B76D0F007875BA /* base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = base.xcconfig; sourceTree = "<group>"; };
+		A576719929B778E0007A6204 /* openAISwift.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = openAISwift.xctestplan; path = openAISwift.xcodeproj/openAISwift.xctestplan; sourceTree = "<group>"; };
 		A5C24CE329B20A4200B8D860 /* openAISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openAISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5C24CE629B20A4200B8D860 /* openAISwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openAISwiftApp.swift; sourceTree = "<group>"; };
+		A5C24CE629B20A4200B8D860 /* application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = application.swift; sourceTree = "<group>"; };
 		A5C24CE829B20A4200B8D860 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A5C24CEB29B20A4200B8D860 /* openAISwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = openAISwift.xcdatamodel; sourceTree = "<group>"; };
 		A5C24CED29B20A4200B8D860 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A5C24CEF29B20A4400B8D860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5C24CF129B20A4400B8D860 /* openAISwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openAISwift.entitlements; sourceTree = "<group>"; };
-		A5C24CF329B20A4400B8D860 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5C24CF929B20A4500B8D860 /* openAISwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openAISwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C24CFD29B20A4500B8D860 /* openAISwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openAISwiftTests.swift; sourceTree = "<group>"; };
 		A5C24D0329B20A4500B8D860 /* openAISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openAISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,31 +91,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A50D346829B517940007AE3E /* Configurations */ = {
+		A520071629B7732C0077110E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A50D346929B517BE0007AE3E /* base.xcconfig */,
-				A50D346B29B517DE0007AE3E /* debug.xcconfig */,
-				A50D346C29B517FC0007AE3E /* release.xcconfig */,
-				A50D347529B5235C0007AE3E /* app.xcconfig */,
-				A50D346F29B520F00007AE3E /* app-debug.xcconfig */,
-				A50D347029B520FD0007AE3E /* app-release.xcconfig */,
-				A50D346D29B51D580007AE3E /* test.xcconfig */,
-				A50D347129B5218C0007AE3E /* test-debug.xcconfig */,
-				A50D347229B5219A0007AE3E /* test-release.xcconfig */,
-				A50D346E29B51D830007AE3E /* uitest.xcconfig */,
-				A50D347329B521D00007AE3E /* uitest-debug.xcconfig */,
-				A50D347429B521DE0007AE3E /* uitest-release.xcconfig */,
+				A520071729B773E30077110E /* AppKit+KeyboardType.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A56D675629B76CFB007875BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A56D675829B76CFB007875BA /* Preview Content */,
+				A56D675729B76CFB007875BA /* Assets.xcassets */,
+				A56D675A29B76CFB007875BA /* entitlement.entitlements */,
+				A56D675B29B76CFB007875BA /* dataStorage.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A56D675829B76CFB007875BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A56D675929B76CFB007875BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A56D676029B76D0F007875BA /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				A56D676E29B76D0F007875BA /* base.xcconfig */,
+				A56D676C29B76D0F007875BA /* debug.xcconfig */,
+				A56D676D29B76D0F007875BA /* release.xcconfig */,
+				A56D676129B76D0F007875BA /* app */,
+				A56D676529B76D0F007875BA /* tests */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		A56D676129B76D0F007875BA /* app */ = {
+			isa = PBXGroup;
+			children = (
+				A56D676229B76D0F007875BA /* app.xcconfig */,
+				A56D676329B76D0F007875BA /* app-debug.xcconfig */,
+				A56D676429B76D0F007875BA /* app-release.xcconfig */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		A56D676529B76D0F007875BA /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				A56D676629B76D0F007875BA /* test-release.xcconfig */,
+				A56D676729B76D0F007875BA /* uitest-debug.xcconfig */,
+				A56D676829B76D0F007875BA /* uitest.xcconfig */,
+				A56D676929B76D0F007875BA /* test.xcconfig */,
+				A56D676A29B76D0F007875BA /* uitest-release.xcconfig */,
+				A56D676B29B76D0F007875BA /* test-debug.xcconfig */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		A56D676F29B76DD9007875BA /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A5C24CE829B20A4200B8D860 /* Persistence.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 		A5C24CDA29B20A4200B8D860 = {
 			isa = PBXGroup;
 			children = (
-				A5C24CE529B20A4200B8D860 /* openAISwift */,
-				A5C24CFC29B20A4500B8D860 /* openAISwiftTests */,
-				A5C24D0629B20A4500B8D860 /* openAISwiftUITests */,
+				A5C24CE529B20A4200B8D860 /* Source */,
+				A56D676029B76D0F007875BA /* Configurations */,
+				A56D675629B76CFB007875BA /* Resources */,
+				A576719929B778E0007A6204 /* openAISwift.xctestplan */,
+				A5C24CFC29B20A4500B8D860 /* Tests */,
+				A5C24D0629B20A4500B8D860 /* UITests */,
 				A5C24CE429B20A4200B8D860 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,52 +184,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5C24CE529B20A4200B8D860 /* openAISwift */ = {
+		A5C24CE529B20A4200B8D860 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A50D346829B517940007AE3E /* Configurations */,
-				A5C24D1629B20A7F00B8D860 /* Resources */,
-				A5C24CE629B20A4200B8D860 /* openAISwiftApp.swift */,
-				A5C24CE829B20A4200B8D860 /* Persistence.swift */,
+				A5C24CE629B20A4200B8D860 /* application.swift */,
+				A520071629B7732C0077110E /* Extensions */,
+				A56D676F29B76DD9007875BA /* Storage */,
 				A5C24CED29B20A4200B8D860 /* ContentView.swift */,
 			);
-			path = openAISwift;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		A5C24CFC29B20A4500B8D860 /* openAISwiftTests */ = {
+		A5C24CFC29B20A4500B8D860 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A5C24CFD29B20A4500B8D860 /* openAISwiftTests.swift */,
 			);
-			path = openAISwiftTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		A5C24D0629B20A4500B8D860 /* openAISwiftUITests */ = {
+		A5C24D0629B20A4500B8D860 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				A5C24D0729B20A4500B8D860 /* openAISwiftUITests.swift */,
 				A5C24D0929B20A4500B8D860 /* openAISwiftUITestsLaunchTests.swift */,
 			);
-			path = openAISwiftUITests;
-			sourceTree = "<group>";
-		};
-		A5C24D1629B20A7F00B8D860 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A5C24CEF29B20A4400B8D860 /* Assets.xcassets */,
-				A5C24CF129B20A4400B8D860 /* openAISwift.entitlements */,
-				A5C24CEA29B20A4200B8D860 /* openAISwift.xcdatamodeld */,
-				A5C24D1729B20B8400B8D860 /* Preview Content */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		A5C24D1729B20B8400B8D860 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A5C24CF329B20A4400B8D860 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +277,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "IGR Soft";
 				TargetAttributes = {
 					A5C24CE229B20A4200B8D860 = {
 						CreatedOnToolsVersion = 14.2;
@@ -280,9 +317,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C24CF429B20A4400B8D860 /* Preview Assets.xcassets in Resources */,
-				A5C24CF029B20A4400B8D860 /* Assets.xcassets in Resources */,
-				A50D346A29B517BE0007AE3E /* base.xcconfig in Resources */,
+				A56D675E29B76CFB007875BA /* Preview Assets.xcassets in Resources */,
+				A56D675D29B76CFB007875BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,10 +343,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C24CE729B20A4200B8D860 /* openAISwiftApp.swift in Sources */,
-				A5C24CEC29B20A4200B8D860 /* openAISwift.xcdatamodeld in Sources */,
+				A5C24CE729B20A4200B8D860 /* application.swift in Sources */,
 				A5C24CEE29B20A4200B8D860 /* ContentView.swift in Sources */,
+				A520071829B773E30077110E /* AppKit+KeyboardType.swift in Sources */,
 				A5C24CE929B20A4200B8D860 /* Persistence.swift in Sources */,
+				A56D675F29B76CFB007875BA /* dataStorage.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,56 +386,56 @@
 /* Begin XCBuildConfiguration section */
 		A5C24D0B29B20A4500B8D860 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D346B29B517DE0007AE3E /* debug.xcconfig */;
+			baseConfigurationReference = A56D676C29B76D0F007875BA /* debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		A5C24D0C29B20A4500B8D860 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D346C29B517FC0007AE3E /* release.xcconfig */;
+			baseConfigurationReference = A56D676D29B76D0F007875BA /* release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		A5C24D0E29B20A4500B8D860 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D346F29B520F00007AE3E /* app-debug.xcconfig */;
+			baseConfigurationReference = A56D676329B76D0F007875BA /* app-debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		A5C24D0F29B20A4500B8D860 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D347029B520FD0007AE3E /* app-release.xcconfig */;
+			baseConfigurationReference = A56D676429B76D0F007875BA /* app-release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		A5C24D1129B20A4500B8D860 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D347129B5218C0007AE3E /* test-debug.xcconfig */;
+			baseConfigurationReference = A56D676B29B76D0F007875BA /* test-debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		A5C24D1229B20A4500B8D860 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D347229B5219A0007AE3E /* test-release.xcconfig */;
+			baseConfigurationReference = A56D676629B76D0F007875BA /* test-release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		A5C24D1429B20A4500B8D860 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D347329B521D00007AE3E /* uitest-debug.xcconfig */;
+			baseConfigurationReference = A56D676729B76D0F007875BA /* uitest-debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		A5C24D1529B20A4500B8D860 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A50D347429B521DE0007AE3E /* uitest-release.xcconfig */;
+			baseConfigurationReference = A56D676A29B76D0F007875BA /* uitest-release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
@@ -445,13 +482,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A5C24CEA29B20A4200B8D860 /* openAISwift.xcdatamodeld */ = {
+		A56D675B29B76CFB007875BA /* dataStorage.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A5C24CEB29B20A4200B8D860 /* openAISwift.xcdatamodel */,
+				A56D675C29B76CFB007875BA /* dataStorage.xcdatamodel */,
 			);
-			currentVersion = A5C24CEB29B20A4200B8D860 /* openAISwift.xcdatamodel */;
-			path = openAISwift.xcdatamodeld;
+			currentVersion = A56D675C29B76CFB007875BA /* dataStorage.xcdatamodel */;
+			path = dataStorage.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

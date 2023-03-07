@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "8DFF2676-D245-4553-86D9-924207F26211",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:openAISwift.xcodeproj",
+      "identifier" : "A5C24CE229B20A4200B8D860",
+      "name" : "openAISwift"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:openAISwift.xcodeproj",
+        "identifier" : "A5C24CF829B20A4500B8D860",
+        "name" : "openAISwiftTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:openAISwift.xcodeproj",
+        "identifier" : "A5C24D0229B20A4500B8D860",
+        "name" : "openAISwiftUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
