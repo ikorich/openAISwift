@@ -29,7 +29,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:openAISwift.xcodeproj/openAISwift.xctestplan"
+            reference = "container:openAISwift.xcodeproj/testPlan.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
@@ -40,7 +40,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5C24CF829B20A4500B8D860"
-               BuildableName = "openAISwift.xctest"
+               BuildableName = "openAISwiftTests.xctest"
                BlueprintName = "openAISwiftTests"
                ReferencedContainer = "container:openAISwift.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5C24D0229B20A4500B8D860"
-               BuildableName = "openAISwift.xctest"
+               BuildableName = "openAISwiftUITests.xctest"
                BlueprintName = "openAISwiftUITests"
                ReferencedContainer = "container:openAISwift.xcodeproj">
             </BuildableReference>
