@@ -1,6 +1,6 @@
 //
 //  AppKit+KeyboardType.swift
-//  openAISwift
+//  anotherOneApp
 //
 //  Created by vitalii on 07.03.2023.
 //  Copyright © 2023 IGR Soft. All rights reserved.
@@ -18,8 +18,9 @@ public enum KeyboardType : Int, @unchecked Sendable {
 }
 
 extension View {
+    @ViewBuilder
     func keyboardType(_ type: KeyboardType) -> some View {
-        return self
+        self
     }
 }
 

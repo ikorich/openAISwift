@@ -1,0 +1,9 @@
+/* 
+  Base.strings
+  anotherOneApp
+
+  Created by vitalii on 08.03.2023.
+  Copyright © 2023 IGR Soft. All rights reserved.
+*/
+
+CFBundleDisplayName = "Open AI Swift";
