@@ -8,17 +8,22 @@
 
 #!/bin/sh
 set -e
-if [[ -n $CI_ARCHIVE_PATH ]];
+if [[ -n $CI_ARCHIVE_PATH ]]
 then
     echo "Start Post Script"
 
-    if [ $CI_PRODUCT_PLATFORM = 'iOS' ] then
+    if [ $CI_PRODUCT_PLATFORM = 'iOS' ]
+    then
         echo "iOS pipeline"
         ./ci_upload_to_firebase.sh
-    else if [ $CI_PRODUCT_PLATFORM = 'macOS' ]  then
+    elif [ $CI_PRODUCT_PLATFORM = 'macOS' ]
+    then
         echo "macOS pipeline"
-    else if [ $CI_PRODUCT_PLATFORM = 'tvOS' ]  then
+    elif [ $CI_PRODUCT_PLATFORM = 'tvOS' ]
+    then
         echo "tvOS pipeline"
+    else
+        echo "unknown pipeline"
     fi
 
 fi
